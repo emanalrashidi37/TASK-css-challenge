@@ -1,0 +1,49 @@
+div{
+    display: flexbox;
+}
+
+#title{
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.image{
+    width: 100%;
+}
+
+.container {
+    min-height: 100vh; /* height of the browser viewport */
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+      background-color: white;
+     color: black;
+     width: 70px;
+     padding: 70px;
+     margin: 0px;
+     border-radius: 20px; 
+     align-items: center;
+     text-align: center;
+}
+
+.line{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+.bgimage{
+    background-image: url(/Users/macuser/development/TASK-css-challenge/assets/pika-profile.png);
+    width: 25%;
+}
