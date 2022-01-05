@@ -1,11 +1,13 @@
 /* Add your code in each class */
 body {
+  background-color: purple;
 }
 .container {
 }
 .movie-card {
 }
 .movie-image {
+  background-image: url(/assets/harrypotter.jpg);
 }
 .movie-details-container {
 }
@@ -28,4 +30,13 @@ body {
   );
 }
 .movie-title {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+
+.capsule{ 
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid black
 }

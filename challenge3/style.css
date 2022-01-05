@@ -1,11 +1,25 @@
 /* Add your code in each class */
 .container {
+  overflow: scroll;
+  width: 400px;
+  height: 300px;
 }
 .head {
+  position: sticky;
+  background-color: orange;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color: white;
+  height: 30px;
+  top: 0px;
 }
 
 .row {
+  background-color: wheat;
+  object-fit: cover;
   /* .row is used in ./index.js not in the html filee */
+
+
 }
 
 /* This is a gift - Does not need editing */
